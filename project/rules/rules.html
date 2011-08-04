@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />		
+		<script type="text/javascript">
+			document.ontouchmove = function(e) { 
+				e.preventDefault(); 
+				return false; 
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<p>
+				If you've ever played MasterMind or Bulls &amp; Cows, ColorCipher will be quite familiar.
+				The goal of the game is to guess the sequence of colors hidden at the top of the board.
+				To start, drag the color wheels up and down to make a guess. You can touch any where on the column to change the color.
+				Double touch OK and you will see a clue
+				circle appear and the next row ready for another guess. In the clue circle, each red slice means 
+				right color right spot and each white slice means right color wrong spot.  Use the clues to help make
+				a better guess each time. If you can guess the solution before running out of rows
+				you win!
+			</p>
+		</div>	
+	</body>
+</html>

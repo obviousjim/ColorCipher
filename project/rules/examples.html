@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<p>
+				In the images below, the top row is the hidden
+				solution and the bottom row the player's guess.  The clue can be found on the right of the guess.
+			</p>
+			<div class="exampleBlock">
+				<strong>example 1:</strong>
+				<img src="example1.png"/>
+				Here only the guess and the solution share one thing in common: the blue column.  Therefore the
+				clue contains just one red slice.
+			</div>
+			<div class="exampleBlock">	
+				<strong>example 2:</strong>
+				<img src="example2.png"/>
+				This one is a lot like the example above, but the white column in the guess being out of 
+				alignment with the white in the solution adds a white slice to the clue. It's the right color, but the wrong spot.			
+			</div>
+			<div class="exampleBlock">			
+				<strong>example 3:</strong>
+				<img src="example3.png"/>
+				Duplicates get tricky! Decoding them is the secret to successful play.  In this example's clue
+				the red slice is present because of the blue to blue match. However there is just one white slice even 
+				though the solution contains two greens.  This is because each peg in the guess and the solution can only be
+				paired once.
+			</div>
+			<div class="exampleBlock">
+				<strong>example 4:</strong>
+				<img src="example4.png"/>
+				Another tricky example involving duplicates. This example is the reverse above, 
+				where two blues in the wrong spots only receive one white slice in the clue.  This is because the 
+				solution only contains one blue.
+			</div>
+			<div class="exampleBlock">
+				<strong>example 5:</strong>
+				<img src="example5.png"/>
+				An example to show some complexity.  The clue contains two red slices because two of the greens are the right color, right spot.
+				A white slice to represent the white in the wrong spot. The third green that is in the wrong spot does not get a white slice because the other two
+				greens are already evaluated by the red slices.			
+			</div>
+			<div class="exampleBlock">
+				<strong>example 6:</strong>
+				<img src="example6.png"/>
+				The final goal! Guessing the solution exactly You will see 4 red slices and the solution
+				revealed.
+			</div>			
+		</div>
+	</body>
+</html>
